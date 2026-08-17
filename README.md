@@ -1,23 +1,28 @@
-# 👋 Welcome!
+# 👋 Welcome to My Portfolio
 
-Hey there! Thanks for stopping by 💫  
+Hey there! I'm Boniface Njuguna — welcome to my little corner of the internet. 🚀
 
-I’m Boniface Njuguna — a dev who loves building clean, useful things on the web.
-
-### 🌐 Check out my work
-Take a peek at my portfolio here:  
-[bonifacenjuguna.vercel.app](https://bonifacenjuguna.vercel.app)
-
-That’s where I share projects, experiments, and things I’m building.
-
-### ✨ What you’ll find here
-- Projects I’m proud of
-- Code snippets and tools
-- Occasional chaos and late-night commits
-
-### 🤝 Let’s connect
-Found something you like?  
-Feel free to explore the site, star a repo, or reach out!
+💻 I build, experiment, and turn ideas into real projects.
 
 ---
-Made with ☕ and curiosity by Boniface
+
+### 🌐 Explore My Work
+[Visit my portfolio →](https://bonifacenjuguna.vercel.app)
+
+Discover my projects, experiments, skills, and things I'm currently building.
+
+---
+
+### ✨ What you'll find here
+- Projects that solve real problems
+- Code snippets + tools I've built  
+- Experiments and late-night ideas
+- A bit of chaos, a lot of curiosity
+
+> «⚡ Code. Create. Learn. Repeat.»
+
+---
+
+### 🤝 Let's connect
+Thanks for stopping by! ❤️  
+If you like what you see, check out the site and feel free to reach out.
