@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bonifacenjuguna.vercel.app/sitemap.xml
