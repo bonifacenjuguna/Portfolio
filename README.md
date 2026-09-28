@@ -29,7 +29,7 @@ I am strengthening my foundations in cybersecurity and networking while continui
 
 ## Portfolio
 
-https://bonifacenjuguna.vercel.app
+https://bonifacenjuguna.netlify.app
 
 ## Connect
 
