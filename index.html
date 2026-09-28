@@ -17,12 +17,15 @@
 <meta name="twitter:title" content="Boniface Njuguna — Software, Security & Networking">
 <meta name="twitter:description" content="A practical portfolio of software systems, automation, APIs, networking and security-focused work.">
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#0b0c0e;--surface:#111317;--surface2:#16191e;--line:#272b32;
   --text:#f4f2ec;--muted:#a4a7ad;--dim:#70747c;--accent:#d7ad58;
   --accent2:#f0ca78;--accent-bg:rgba(215,173,88,.10);--max:1180px;
-  --serif:Georgia,"Times New Roman",serif;--sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --serif:"DM Serif Display",Georgia,serif;--sans:"DM Sans",ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--display:"Space Grotesk",ui-sans-serif,system-ui,sans-serif;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scrollbar-color:#30343b var(--bg)}
@@ -34,18 +37,18 @@ button{font:inherit}
 .skip{position:absolute;left:12px;top:-60px;background:var(--accent);color:#15110a;padding:10px 16px;border-radius:8px;z-index:100}.skip:focus{top:12px}
 .nav{position:sticky;top:0;z-index:50;border-bottom:1px solid transparent;background:rgba(11,12,14,.86);backdrop-filter:blur(16px)}
 .nav-inner{height:72px;display:flex;align-items:center;justify-content:space-between}
-.brand{font-weight:750;letter-spacing:-.03em;font-size:1rem}.brand span{color:var(--accent)}
+.brand{font-family:var(--display);font-weight:600;letter-spacing:-.045em;font-size:1.05rem}.brand span{color:var(--accent)}
 .navlinks{display:flex;gap:4px;align-items:center}.navlinks a{padding:9px 13px;color:var(--muted);font-size:.84rem;border-radius:8px}.navlinks a:hover{color:var(--text);background:var(--surface)}
 .nav-cta{border:1px solid var(--line)!important;color:var(--text)!important}
-.hero{padding:clamp(90px,13vw,160px) 0 110px;border-bottom:1px solid var(--line)}
-.hero-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(260px,.7fr);gap:70px;align-items:end}
-.kicker{display:flex;align-items:center;gap:10px;color:var(--accent);font-size:.76rem;text-transform:uppercase;letter-spacing:.14em;font-weight:700;margin-bottom:22px}
+.hero{padding:clamp(78px,10vw,132px) 0 96px;border-bottom:1px solid var(--line);min-height:calc(100vh - 72px);display:flex;align-items:center}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(250px,.45fr);gap:80px;align-items:end;width:100%}
+.kicker{display:flex;align-items:center;gap:11px;color:var(--accent);font-family:var(--display);font-size:.68rem;text-transform:uppercase;letter-spacing:.16em;font-weight:600;margin-bottom:25px}.kicker:after{content:"";width:8px;height:8px;border:1px solid var(--accent);border-radius:50%;margin-left:2px}
 .kicker:before{content:"";width:30px;height:1px;background:var(--accent)}
-h1{font-size:clamp(3.4rem,8vw,7.4rem);line-height:.93;letter-spacing:-.065em;margin:0;max-width:900px}
-h1 em{font-family:var(--serif);font-weight:400;color:var(--accent);letter-spacing:-.045em}
-.hero-copy{font-size:clamp(1.05rem,1.5vw,1.28rem);color:var(--muted);max-width:650px;margin:30px 0 32px}
-.actions{display:flex;gap:10px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;gap:8px;border-radius:8px;padding:12px 17px;font-size:.86rem;font-weight:700;border:1px solid var(--line);transition:.2s ease}.btn.primary{background:var(--accent);color:#171209;border-color:var(--accent)}.btn:hover{transform:translateY(-2px);border-color:#454a53}.btn.primary:hover{background:var(--accent2);border-color:var(--accent2)}
-.hero-note{border-left:1px solid var(--line);padding-left:28px;color:var(--muted);font-size:.91rem}.hero-note strong{display:block;color:var(--text);font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;margin-bottom:9px}.hero-note p{margin:0 0 18px}.meta{display:flex;flex-wrap:wrap;gap:8px}.meta span{border:1px solid var(--line);border-radius:999px;padding:5px 9px;color:var(--dim);font-size:.72rem}
+h1{font-family:var(--display);font-size:clamp(4.2rem,9.2vw,9.2rem);line-height:.86;letter-spacing:-.085em;font-weight:600;margin:0;max-width:1050px}
+h1 em{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--accent);letter-spacing:-.055em}
+.hero-copy{font-size:clamp(1rem,1.35vw,1.16rem);line-height:1.55;color:var(--muted);max-width:610px;margin:34px 0 30px}
+.actions{display:flex;gap:9px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;gap:8px;border-radius:5px;padding:11px 16px;font-size:.78rem;font-family:var(--display);font-weight:600;border:1px solid var(--line);transition:.2s ease}.btn.primary{background:var(--accent);color:#171209;border-color:var(--accent)}.btn:hover{transform:translateY(-2px);border-color:#454a53}.btn.primary:hover{background:var(--accent2);border-color:var(--accent2)}
+.hero-note{border-left:1px solid var(--line);padding:0 0 2px 26px;color:var(--muted);font-size:.84rem;align-self:end;max-width:280px}.hero-note strong{display:block;color:var(--text);font-family:var(--display);font-size:.67rem;text-transform:uppercase;letter-spacing:.15em;margin-bottom:11px}.hero-note p{margin:0 0 18px}.meta{display:flex;flex-wrap:wrap;gap:8px}.meta span{border:0;border-left:1px solid var(--line);border-radius:0;padding:2px 0 2px 9px;color:var(--dim);font-size:.68rem}
 .section{padding:105px 0;border-bottom:1px solid var(--line)}.section-head{display:grid;grid-template-columns:180px 1fr;gap:40px;margin-bottom:52px}.eyebrow{font-size:.72rem;color:var(--accent);letter-spacing:.14em;text-transform:uppercase;font-weight:750;padding-top:8px}.section-title{font-size:clamp(2rem,4vw,3.6rem);line-height:1.05;letter-spacing:-.045em;margin:0}.section-intro{color:var(--muted);max-width:680px;margin:15px 0 0;font-size:1rem}
 .project{display:grid;grid-template-columns:90px 1fr 160px;gap:25px;padding:28px 0;border-top:1px solid var(--line);transition:padding .2s ease}.project:last-child{border-bottom:1px solid var(--line)}.project:hover{padding-left:10px;padding-right:10px;background:linear-gradient(90deg,rgba(255,255,255,.018),transparent)}
 .project-num{font-family:var(--serif);font-size:1.1rem;color:var(--accent)}.project h3{font-size:clamp(1.35rem,2vw,1.8rem);letter-spacing:-.03em;margin:0 0 7px}.project p{color:var(--muted);margin:0;max-width:720px;font-size:.93rem}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:15px}.tag{font-size:.68rem;color:var(--dim);border:1px solid var(--line);padding:4px 7px;border-radius:5px}.project-link{justify-self:end;align-self:start;color:var(--accent);font-size:.8rem;font-weight:700}.project-link:hover{text-decoration:underline}
@@ -73,14 +76,14 @@ footer{padding:28px 0;color:var(--dim);font-size:.72rem;display:flex;justify-con
 <main id="main">
 <section class="hero"><div class="wrap hero-grid">
 <div>
-<div class="kicker">Computer Science · Kenya</div>
-<h1>I build things<br>that <em>work.</em></h1>
-<p class="hero-copy">I'm Boniface Njuguna — a Computer Science student building practical software systems, automation and APIs while going deeper into cybersecurity and networking.</p>
-<div class="actions"><a class="btn primary" href="#work">Explore my work <span>↓</span></a><a class="btn" href="https://github.com/bonifacenjuguna" target="_blank" rel="noopener">GitHub ↗</a></div>
+<div class="kicker">Computer Science / Software / Kenya</div>
+<h1>I build software<br>that <em>holds up.</em></h1>
+<p class="hero-copy">I'm Boniface Njuguna, a Computer Science student building practical systems across backend engineering, automation, cybersecurity and networking.</p>
+<div class="actions"><a class="btn primary" href="#work">View selected work <span>↘</span></a><a class="btn" href="https://github.com/bonifacenjuguna" target="_blank" rel="noopener">GitHub ↗</a></div>
 </div>
 <aside class="hero-note">
-<strong>What I'm focused on</strong>
-<p>Building real systems, understanding how they work, finding where they fail, and improving them.</p>
+<strong>Where I'm going deeper</strong>
+<p>From the API to the network boundary — build it, test it, understand it, improve it.</p>
 <div class="meta"><span>Backend</span><span>Security</span><span>Networking</span><span>Automation</span></div>
 </aside>
 </div></section>
