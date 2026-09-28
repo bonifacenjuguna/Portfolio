@@ -1,28 +1,41 @@
-# 👋 Welcome to My Portfolio
+# Boniface Njuguna — Portfolio
 
-Hey there! I'm Boniface Njuguna — welcome to my little corner of the internet. 🚀
+Personal portfolio for Boniface Njuguna, a Computer Science student building practical software systems with a growing focus on cybersecurity and networking.
 
-💻 I build, experiment, and turn ideas into real projects.
+## What I build
 
----
+- Web interfaces and backend services
+- REST APIs and integrations
+- Telegram bots and automation
+- Authentication and OAuth flows
+- Database-backed applications
+- Networking and security-focused experiments
+- Deployment, monitoring, debugging, and performance work
 
-### 🌐 Explore My Work
-[Visit my portfolio →](https://bonifacenjuguna.vercel.app)
+## Featured projects
 
-Discover my projects, experiments, skills, and things I'm currently building.
+| Project | Focus | Repository / link |
+| --- | --- | --- |
+| GitroHub | GitHub developer tooling, Telegram automation, access control | https://github.com/bonifacenjuguna/GitroHub |
+| SpeedNett | Internet speed testing, APIs, networking | https://github.com/bonifacenjuguna/ishownet |
+| PricePing | Crypto price-milestone intelligence bot | https://t.me/PricePingAlertsBot |
+| Inbrix | Gmail-to-Telegram automation and OAuth | https://github.com/bonifacenjuguna/Inbrix |
+| Schedora | Scheduling and Telegram automation | https://github.com/bonifacenjuguna/Schedora |
+| Cloud | Private backend/infrastructure experiments | https://github.com/bonifacenjuguna/Cloud |
 
----
+## Current direction
 
-### ✨ What you'll find here
-- Projects that solve real problems
-- Code snippets + tools I've built  
-- Experiments and late-night ideas
-- A bit of chaos, a lot of curiosity
+I am strengthening my foundations in cybersecurity and networking while continuing to build real systems. My approach is practical: build it, test it, understand where it fails, and improve it.
 
-> «⚡ Code. Create. Learn. Repeat.»
+## Portfolio
 
----
+https://bonifacenjuguna.vercel.app
 
-### 🤝 Let's connect
-Thanks for stopping by! ❤️  
-If you like what you see, check out the site and feel free to reach out.
+## Connect
+
+- GitHub: https://github.com/bonifacenjuguna
+- LinkedIn: https://linkedin.com/in/avoenix
+- Telegram: https://t.me/bonifacenjuguna
+- Email: njugunaboniface211@gmail.com
+
+> Code. Create. Learn. Repeat.
